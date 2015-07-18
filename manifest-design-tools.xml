@@ -4,6 +4,8 @@
    
    <project name="shadowfax-webserver" remote="csp" revision="master" path="shadowfax-webserver"/>
    <project name="shadowfax" remote="csp" revision="master" path="shadowfax-webserver/public/shadowfax"/>
-   <project name="nsd" remote="csp" revision="master" path="nsd"/>
+   <project name="csp-design-tools" remote="csp" revision="master" path="csp-design-tools"/>
+   <project name="template-ui" remote="csp" revision="master" path="csp-design-tools" />
+   <project name="fsd-ui" remote="csp" revision="master" path="fsd-ui"/>
    <project name="nsd-ui" remote="csp" revision="master" path="shadowfax-webserver/public/nsd-ui"/>
 </manifest>
