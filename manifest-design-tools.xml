@@ -2,9 +2,8 @@
    <description>Design Tools UI manifest file</description>
    <remote name="csp" fetch="ssh://git@ssd-git.juniper.net/csp/"/>
    
-   <default revision="refs/heads/master" remote="csp"/>
-   <project name="shadowfax-webserver" remote="csp" path="shadowfax-webserver"/>
-   <project name="shadowfax" remote="csp" path="shadowfax-webserver/public/shadowfax"/>
-   <project name="nsd" remote="csp" path="nsd"/>
-   <project name="nsd-ui" remote="csp" path="shadowfax-webserver/public/nsd-ui"/>
+   <project name="shadowfax-webserver" remote="csp" revision="master" path="shadowfax-webserver"/>
+   <project name="shadowfax" remote="csp" revision="master" path="shadowfax-webserver/public/shadowfax"/>
+   <project name="nsd" remote="csp" revision="master" path="nsd"/>
+   <project name="nsd-ui" remote="csp" revision="master" path="shadowfax-webserver/public/nsd-ui"/>
 </manifest>
