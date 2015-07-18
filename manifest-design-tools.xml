@@ -1,0 +1,9 @@
+<manifest>
+   <description>Design Tools UI manifest file</description>
+   <remote name="csp" fetch="ssh://git@ssd-git.juniper.net/csp/"/>
+
+   <project name="shadowfax-webserver" remote="csp" path="shadowfax-webserver"/>
+   <project name="shadowfax" remote="csp" path="shadowfax"/>
+   <project name="nsd" remote="csp" path="nsd"/>
+   <project name="nsd-ui" remote="csp" path="nsd-ui"/>
+</manifest>
