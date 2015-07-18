@@ -4,7 +4,7 @@
    
    <default revision="refs/heads/master" remote="csp"/>
    <project name="shadowfax-webserver" remote="csp" path="shadowfax-webserver"/>
-   <project name="shadowfax" remote="csp" path="shadowfax"/>
+   <project name="shadowfax" remote="csp" path="shadowfax-webserver/public/shadowfax"/>
    <project name="nsd" remote="csp" path="nsd"/>
-   <project name="nsd-ui" remote="csp" path="nsd-ui"/>
+   <project name="nsd-ui" remote="csp" path="shadowfax-webserver/public/nsd-ui"/>
 </manifest>
